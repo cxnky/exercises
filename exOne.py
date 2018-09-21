@@ -1,12 +1,1 @@
-myList = []
-myList.append(1)
-myList.append(2)
-myList.append(3)
-print(myList[0])
-print(myList[1])
-print(myList[2])
-
-for x in myList:
-    print(x)
-
-print("Visit my github at: https://github.com/snuken/exercises")
+print(3.0%4)
