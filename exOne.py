@@ -8,3 +8,5 @@ print(myList[2])
 
 for x in myList:
     print(x)
+
+print("Visit my github at: https://github.com/snuken/exercises")
