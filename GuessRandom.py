@@ -1,11 +1,13 @@
 import random
 
-while True:
-    print("Guess the number that random will generate.")
+def Guess():
     randNumber = random.randint(1, 5)
+    guess = int(input("Guess the number that random will generate: "))
 
-    if (int(input()) == randNumber):
-        print("You guessed right!")
-        break
+    while (guess != randNumber):
+        guess = int(input("Incorrect! Enter your next guess: "))
 
-    print("You guessed wrong, try again. The correct answer was " + str(randNumber) + ".")
+    print("Congratulations! You guessed the number correctly.")
+
+while True:
+    Guess()
